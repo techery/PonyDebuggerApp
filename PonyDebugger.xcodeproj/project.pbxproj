@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF6ED6BA1BDE231500190783 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6ED6B91BDE231500190783 /* Utils.swift */; settings = {ASSET_TAGS = (); }; };
+		EFAD476D1BDD34DC00A66779 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD476C1BDD34DC00A66779 /* AppDelegate.swift */; };
+		EFAD476F1BDD34DC00A66779 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD476E1BDD34DC00A66779 /* ViewController.swift */; };
+		EFAD47711BDD34DC00A66779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAD47701BDD34DC00A66779 /* Assets.xcassets */; };
+		EFAD47741BDD34DC00A66779 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAD47721BDD34DC00A66779 /* Main.storyboard */; };
+		EFAD477F1BDD34DD00A66779 /* PonyDebuggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD477E1BDD34DD00A66779 /* PonyDebuggerTests.swift */; };
+		EFAD478A1BDD350200A66779 /* PonyDebugger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD47891BDD350200A66779 /* PonyDebugger.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFAD477B1BDD34DD00A66779 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAD47611BDD34DC00A66779 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAD47681BDD34DC00A66779;
+			remoteInfo = PonyDebugger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF6ED6B51BDE1F0E00190783 /* PonyDebugger-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PonyDebugger-Bridging-Header.h"; sourceTree = "<group>"; };
+		EF6ED6B91BDE231500190783 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		EFAD47691BDD34DC00A66779 /* PonyDebugger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PonyDebugger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAD476C1BDD34DC00A66779 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFAD476E1BDD34DC00A66779 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFAD47701BDD34DC00A66779 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFAD47731BDD34DC00A66779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFAD47751BDD34DC00A66779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAD477A1BDD34DD00A66779 /* PonyDebuggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PonyDebuggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAD477E1BDD34DD00A66779 /* PonyDebuggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PonyDebuggerTests.swift; sourceTree = "<group>"; };
+		EFAD47801BDD34DD00A66779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAD47891BDD350200A66779 /* PonyDebugger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PonyDebugger.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFAD47661BDD34DC00A66779 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAD47771BDD34DD00A66779 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFAD47601BDD34DC00A66779 = {
+			isa = PBXGroup;
+			children = (
+				EFAD476B1BDD34DC00A66779 /* PonyDebugger */,
+				EFAD477D1BDD34DD00A66779 /* PonyDebuggerTests */,
+				EFAD476A1BDD34DC00A66779 /* Products */,
+				EF6ED6B51BDE1F0E00190783 /* PonyDebugger-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		EFAD476A1BDD34DC00A66779 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD47691BDD34DC00A66779 /* PonyDebugger.app */,
+				EFAD477A1BDD34DD00A66779 /* PonyDebuggerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFAD476B1BDD34DC00A66779 /* PonyDebugger */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD476C1BDD34DC00A66779 /* AppDelegate.swift */,
+				EFAD476E1BDD34DC00A66779 /* ViewController.swift */,
+				EFAD47701BDD34DC00A66779 /* Assets.xcassets */,
+				EFAD47721BDD34DC00A66779 /* Main.storyboard */,
+				EFAD47751BDD34DC00A66779 /* Info.plist */,
+				EFAD47891BDD350200A66779 /* PonyDebugger.swift */,
+				EF6ED6B91BDE231500190783 /* Utils.swift */,
+			);
+			path = PonyDebugger;
+			sourceTree = "<group>";
+		};
+		EFAD477D1BDD34DD00A66779 /* PonyDebuggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD477E1BDD34DD00A66779 /* PonyDebuggerTests.swift */,
+				EFAD47801BDD34DD00A66779 /* Info.plist */,
+			);
+			path = PonyDebuggerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFAD47681BDD34DC00A66779 /* PonyDebugger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAD47831BDD34DD00A66779 /* Build configuration list for PBXNativeTarget "PonyDebugger" */;
+			buildPhases = (
+				EFAD47651BDD34DC00A66779 /* Sources */,
+				EFAD47661BDD34DC00A66779 /* Frameworks */,
+				EFAD47671BDD34DC00A66779 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PonyDebugger;
+			productName = PonyDebugger;
+			productReference = EFAD47691BDD34DC00A66779 /* PonyDebugger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFAD47791BDD34DD00A66779 /* PonyDebuggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAD47861BDD34DD00A66779 /* Build configuration list for PBXNativeTarget "PonyDebuggerTests" */;
+			buildPhases = (
+				EFAD47761BDD34DD00A66779 /* Sources */,
+				EFAD47771BDD34DD00A66779 /* Frameworks */,
+				EFAD47781BDD34DD00A66779 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAD477C1BDD34DD00A66779 /* PBXTargetDependency */,
+			);
+			name = PonyDebuggerTests;
+			productName = PonyDebuggerTests;
+			productReference = EFAD477A1BDD34DD00A66779 /* PonyDebuggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFAD47611BDD34DC00A66779 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = FocusedGenius;
+				TargetAttributes = {
+					EFAD47681BDD34DC00A66779 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					EFAD47791BDD34DD00A66779 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = EFAD47681BDD34DC00A66779;
+					};
+				};
+			};
+			buildConfigurationList = EFAD47641BDD34DC00A66779 /* Build configuration list for PBXProject "PonyDebugger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFAD47601BDD34DC00A66779;
+			productRefGroup = EFAD476A1BDD34DC00A66779 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFAD47681BDD34DC00A66779 /* PonyDebugger */,
+				EFAD47791BDD34DD00A66779 /* PonyDebuggerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFAD47671BDD34DC00A66779 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAD47711BDD34DC00A66779 /* Assets.xcassets in Resources */,
+				EFAD47741BDD34DC00A66779 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAD47781BDD34DD00A66779 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFAD47651BDD34DC00A66779 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAD476F1BDD34DC00A66779 /* ViewController.swift in Sources */,
+				EFAD476D1BDD34DC00A66779 /* AppDelegate.swift in Sources */,
+				EFAD478A1BDD350200A66779 /* PonyDebugger.swift in Sources */,
+				EF6ED6BA1BDE231500190783 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAD47761BDD34DD00A66779 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAD477F1BDD34DD00A66779 /* PonyDebuggerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFAD477C1BDD34DD00A66779 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFAD47681BDD34DC00A66779 /* PonyDebugger */;
+			targetProxy = EFAD477B1BDD34DD00A66779 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFAD47721BDD34DC00A66779 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAD47731BDD34DC00A66779 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFAD47811BDD34DD00A66779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFAD47821BDD34DD00A66779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EFAD47841BDD34DD00A66779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PonyDebugger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = io.focusedgenius.PonyDebugger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PonyDebugger-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFAD47851BDD34DD00A66779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PonyDebugger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = io.focusedgenius.PonyDebugger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PonyDebugger-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		EFAD47871BDD34DD00A66779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PonyDebuggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.focusedgenius.PonyDebuggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PonyDebugger.app/Contents/MacOS/PonyDebugger";
+			};
+			name = Debug;
+		};
+		EFAD47881BDD34DD00A66779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PonyDebuggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.focusedgenius.PonyDebuggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PonyDebugger.app/Contents/MacOS/PonyDebugger";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFAD47641BDD34DC00A66779 /* Build configuration list for PBXProject "PonyDebugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAD47811BDD34DD00A66779 /* Debug */,
+				EFAD47821BDD34DD00A66779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAD47831BDD34DD00A66779 /* Build configuration list for PBXNativeTarget "PonyDebugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAD47841BDD34DD00A66779 /* Debug */,
+				EFAD47851BDD34DD00A66779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAD47861BDD34DD00A66779 /* Build configuration list for PBXNativeTarget "PonyDebuggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAD47871BDD34DD00A66779 /* Debug */,
+				EFAD47881BDD34DD00A66779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFAD47611BDD34DC00A66779 /* Project object */;
+}
